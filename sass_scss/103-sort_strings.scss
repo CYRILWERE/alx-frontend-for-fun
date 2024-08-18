@@ -1,0 +1,7 @@
+/* Task 103: Sorting List and Printing with Debug */
+$list_to_sort: john anna zoe kim felicia carrie;
+
+$list_sorted: sort($list_to_sort);
+
+@debug $list_sorted;
+

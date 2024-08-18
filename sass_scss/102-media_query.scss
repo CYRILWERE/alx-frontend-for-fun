@@ -1,0 +1,26 @@
+/* Task 102: Media Queries for h1 Font Size and Color */
+h1 {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 960px) {
+  h1 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  h1 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  h1 {
+    font-size: 14px;
+  }
+  h1.small {
+    color: #1D1D1D;
+  }
+}
+
